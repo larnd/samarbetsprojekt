@@ -32,13 +32,7 @@ Läs mer: https://help.github.com/en/github/collaborating-with-issues-and-pull-r
 1. Lägg till din lokala gren (local branch) till fjärrförvaret (remote repository): *git push --set-upstream origin <namn på gren>*.
 2. I fortsättningen behöver du bara skriva *git pull* (för att "dra ned" uppdateringar) och *git push* (för att uppdatera fjärr-repot med dina ändringar).
 
-### Arbetsgång i fortsättningen:
-
-1. Gör ändringar.
-2. *git add .*
-3. *git commit -m "Uppdaterat filer"*
-4. *git pull*
-5. *git push*
+Arbetsgång när grenen är tillagd: *Gör ändringar* --> *git add .* --> *git commit -m "Uppdaterat filer"* --> *git pull* --> *git push*
 
 ## Skapa förfrågan om att lägga till grenen till huvudprojekt (*pull request*)
 
@@ -52,4 +46,4 @@ Läs mer: https://help.github.com/en/github/collaborating-with-issues-and-pull-r
 
 1. Fliken "Pull request" har nu en liten siffra som har ökat med ett. Klicka på fliken så visas alla öppna förfrågningar.
 2. Nedanför diskussionstråden finns en grön knapp "*Merge pull request*". Klicka på knappen för att slå samman förändringen i grenen med huvudgrenen.
-3. Innehållet i grenen är nu detsamma som i huvudgrenen och det visas en lila knapp. Grenen kan därför raderas genom att klicka på den röda "papperskorgen" under fliken *<>Code - branches*
+3. Innehållet i grenen är nu detsamma som i huvudgrenen och det visas en lila knapp. Grenen kan därför raderas genom att klicka på den röda "papperskorgen" under fliken *<>Code - branches*. Radera din gren.
