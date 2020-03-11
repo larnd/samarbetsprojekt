@@ -23,9 +23,8 @@ Läs mer: https://help.github.com/en/github/collaborating-with-issues-and-pull-r
 2. Skapa en ny HTML-fil och spara den med ditt förnamn som filnamn. (T.ex. om jag heter Henrik ska filen heta 'henrik.html').
 3. Lägg till alla ändrade filer till git-index genom att skriv *git add .* (Kontrollera med *git status* före och efter).
 4. Kommitta: *git commit -m "Lagt till HTML-fil"*. (Filen är nu tillagt till ditt *lokala* repo)
-5. Uppdatera eventuella ändringar från förvaret: Skriv *git pull*.
-6. Lägg till din lokala gren (local branch) till fjärrförvaret (remote repository): *git push --set-upstream origin <namn på gren>*.
-7. I fortsättningen behöver du bara skriva *git push* för att uppdatera din gren på Github.
+5. Lägg till din lokala gren (local branch) till fjärrförvaret (remote repository): *git push --set-upstream origin <namn på gren>*.
+6. I fortsättningen behöver du bara skriva *git pull* (för att "dra ned" uppdateringar) och *git push* (för att uppdatera din gren på Github.
 
 ### Arbetsgång i fortsättningen:
 
@@ -41,6 +40,7 @@ Läs mer: https://help.github.com/en/github/collaborating-with-issues-and-pull-r
 2. Klicka på den andra knappen "*New pull request*"
 3. Du blir ombedd att skriva en titel och förklaring på förändringarna.
 4. Klicka sedan på den gröna knappen "*Create pull request*".
+5. Nu kan deltagarna i projektet se och diskutera dina föreslagna förändringar.
 
 ## Slå ihop grenen med huvudprojektet (*merge*)
 
