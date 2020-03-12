@@ -1,4 +1,4 @@
-# Samarbetsprojekt
+# Samarbetsprojekt med Collaborators
 Projekt där vi övar på att samarbeta med hjälp av Git. 
 
 Lathund: https://www.git-tower.com/blog/git-cheat-sheet/
